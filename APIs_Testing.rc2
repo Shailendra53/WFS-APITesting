@@ -1,0 +1,45 @@
+
+/*******   START  -   AUTO INCLUSION BY FILE VERSION SCRIPT **********/
+#ifndef _MAC
+
+#include "../../../vaultcx/Source/Include/CVVersion.h"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION CV_FILE_VERSION
+PRODUCTVERSION CV_PRODUCT_VERSION
+FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+FILEFLAGS 0x1L
+#else
+FILEFLAGS 0x0L
+#endif
+FILEOS 0x40004L
+FILETYPE 0x1L
+FILESUBTYPE 0x0L
+BEGIN
+	BLOCK "StringFileInfo"
+	BEGIN
+		BLOCK "040904b0"
+		BEGIN
+			VALUE "Comments", "\0"
+			VALUE "CompanyName", CV_COMPANY_NAME_STRING
+			VALUE "FileVersion", CV_FILE_VERSION_STRING
+			VALUE "LegalCopyright", CV_LEGAL_COPYRIGHT_STRING
+			VALUE "LegalTrademarks", CV_LEGAL_TRADEMARKS_STRING
+			VALUE "PrivateBuild", CV_PRIVATE_BUILD_STRING
+			VALUE "ProductName", CV_PRODUCT_NAME_STRING
+			VALUE "ProductVersion", CV_PRODUCT_VERSION_STRING
+			VALUE "SpecialBuild", CV_SPECIAL_BUILD_STRING 
+			VALUE "FileDescription", CV_FILE_DESCRIPTION_STRING
+			VALUE "InternalName", "APIs_Testing\0"
+			VALUE "OriginalFilename", "APIs_Testing.exe\0"
+		END
+	END
+	BLOCK "VarFileInfo"
+	BEGIN
+		VALUE "Translation", 0x409, 1200
+	END
+END
+
+#endif    // !_MAC
+/*******   START  -   AUTO INCLUSION BY FILE VERSION SCRIPT **********/
